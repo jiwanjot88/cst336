@@ -1,6 +1,6 @@
 body {
     background-color:black;
-    color:gray;
+    color:#db9034;
 }
 
 h1{
@@ -10,8 +10,8 @@ h1{
 }
 
 #currentView{
-    border-style: solid;
-    border-bottom: thick dotted #ff0000;
+    border-style: dotted;
+    border-bottom: thick #f70411;
 }
 
 header, main, nav, footer {
@@ -23,16 +23,16 @@ nav a{  /*links within "nav" container */
     padding:15;
     padding-bottom:4px;
     font-size: 2em;
-    text-decoration: none;  /*removes underline */
-    color: white;
+    text-decoration: none; 
+    color: gray;
 }
 
-nav a:hover {    /*pseudo class*/
-    border-bottom:2px orange solid;
+nav a:hover {   
+    border-bottom:2px red solid;
     font-size: 3em;
-    transition: .9s;    /* transition effect */
+    transition: .5s;   
 }
-
+/*
 #me, #welcomeText{
     float:left;
 }
@@ -40,9 +40,9 @@ nav a:hover {    /*pseudo class*/
 #welcomeText{
     text-align: left;
 }
-
+*/
 footer{
-    color:yellow;
+    color:white;
     font-size: .9em;
     clear:left;
 }
@@ -57,15 +57,15 @@ td{
 }
 
 td strong{
-    color: orange;
+    color: black;
 }
 
 #table-header{
-    background-color: #351a00;
+    background-color: #f47902;
 }
 
 .table-row{
-    background-color: #753900;
+    background-color: black;
 }
 
 ul{
@@ -75,5 +75,5 @@ ul{
 }
 
 .hobby{
-    color:yellow;
+    color:red;
 }

@@ -26,14 +26,14 @@ div.transbox p {
 
 h1{
     font-family: 'Aldrich';
-    color: #00ffff;
+    color: #f44242;
     font-size: 4em;
     margin-bottom: 0px;
 }
 
 #currentView{
     
-    border-bottom: thin dotted #00ff00;
+    border-bottom: thin dotted #f44242;
 }
 
 
@@ -57,54 +57,16 @@ h1{
 }
 
 .topNav a:hover {    
-  border-bottom:2px orange solid;
+  border-bottom:2px blue solid;
   font-size: 3em;
-  transition: .9s;    
-}
-
-#me, #welcomeText{
-    float:left;
-}
-
-#welcomeText{
-    text-align: left;
+  transition: .5s;    
 }
 
 footer{
-    color:white;
+    color:green;
     font-size: .9em;
     clear:left;
 }
 
-table{
-    margin: 0px auto;
-}
 
-td{
-    padding-right: 10px;
-    font-size: 1.3em;
-}
 
-td strong{
-    color: orange;
-}
-
-#table-header{
-    background-color: #351a00;
-}
-
-.table-row{
-    background-color: #753900;
-}
-
-ul{
-    display: block;
-    text-align: left;
-    padding-left: 200px;
-}
-
-.hobby{
-    color:white;
-}
-
-* {box-sizing:border-box}
