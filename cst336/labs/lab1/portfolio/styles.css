@@ -1,0 +1,79 @@
+body {
+    background-color:black;
+    color:gray;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+#currentView{
+    border-style: solid;
+    border-bottom: thick dotted #ff0000;
+}
+
+header, main, nav, footer {
+    text-align: center;
+}
+
+nav a{  /*links within "nav" container */
+
+    padding:15;
+    padding-bottom:4px;
+    font-size: 2em;
+    text-decoration: none;  /*removes underline */
+    color: white;
+}
+
+nav a:hover {    /*pseudo class*/
+    border-bottom:2px orange solid;
+    font-size: 3em;
+    transition: .9s;    /* transition effect */
+}
+
+#me, #welcomeText{
+    float:left;
+}
+
+#welcomeText{
+    text-align: left;
+}
+
+footer{
+    color:yellow;
+    font-size: .9em;
+    clear:left;
+}
+
+table{
+    margin: 0px auto;
+}
+
+td{
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong{
+    color: orange;
+}
+
+#table-header{
+    background-color: #351a00;
+}
+
+.table-row{
+    background-color: #753900;
+}
+
+ul{
+    display: block;
+    text-align: left;
+    padding-left: 200px;
+}
+
+.hobby{
+    color:yellow;
+}
