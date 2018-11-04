@@ -8,7 +8,10 @@ echo "Jiwanjot Sandhu's CST336 Home Page";
 
 ?>
 
-<a href="labs/lab1/index.html">
+<a href="labs/lab1/portfolio/index.html">
  Lab 1 </a>
+ 
+ <a href="labs/lab2/777/index.html">
+ Lab 2 </a>
  </body>
 </html>
