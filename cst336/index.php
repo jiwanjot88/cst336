@@ -8,8 +8,6 @@ echo "Jiwanjot Sandhu's CST336 Home Page";
 
 ?>
 
-<a href="hw/hw1/AI/index.html">
- Lab 2 </a>
  
  </body>
 </html>
