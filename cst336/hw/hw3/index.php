@@ -194,10 +194,6 @@
                 
                 ?>
             
-                
-            
-            
-            
             
             <div id="layoutdiv">
             <legend>Thanksgiving is in Nov and famous for Pumpkin Pies and Turkey?<legend>
