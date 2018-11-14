@@ -1,0 +1,42 @@
+#layoutdiv
+        {
+           
+            color: black;
+            text-align: left;
+            padding-left:400px;
+           
+        }
+        
+        #submitd
+        {
+            border-radius:50px;
+        }
+        #search
+        {
+            border-radius:20px;
+        }
+        #submitdiv
+        {
+            padding:15px;
+        }
+       
+        h2,h3
+        {
+          display: inline-block;
+          color: black;
+          text-align: center;
+        }
+        body
+        {
+            text-align: center;
+            background-color: #4286f4;
+        } 
+        
+        h1,label 
+        {
+            color: black;
+        }
+         legend
+         {
+           color: black;
+         }
