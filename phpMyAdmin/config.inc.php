@@ -26,6 +26,19 @@ $i = 0;
  */
 $i++;
 /* Authentication type */
+$cfg['Servers'][$i]['auth_type'] = 'config';
+/* Server parameters */
+$cfg['Servers'][$i]['host'] = 'us-cdbr-iron-east-01.cleardb.net';
+$cfg['Servers'][$i]['user'] = 'b6201fd7d53ff7';
+$cfg['Servers'][$i]['password'] = '60c61751';
+$cfg['Servers'][$i]['compress'] = false;
+$cfg['Servers'][$i]['AllowNoPassword'] = true;
+
+/**
+ * Heroku server
+ */
+$i++;
+/* Authentication type */
 $cfg['Servers'][$i]['auth_type'] = 'cookie';
 /* Server parameters */
 $cfg['Servers'][$i]['host'] = 'localhost';
