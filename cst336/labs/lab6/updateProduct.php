@@ -76,11 +76,11 @@
         
         <form>
             <input type="hidden" name="productId" value= "<?=$product['productId']?>"/>
-            Product name: <input type="text" value = "<?=$product['productName']?>" name="productName"><br>
-            Description: <textarea name="description" cols = 50 rows = 4><?=$product['productDescription']?></textarea><br>
-            Price: <input type="text" name="price" value = "<?=$product['price']?>"><br>
+            <strong>Product name:</strong> <input type="text" value = "<?=$product['productName']?>" name="productName"><br>
+            <strong>Description:</strong> <textarea name="description" cols = 50 rows = 4><?=$product['productDescription']?></textarea><br>
+            <strong>Price:</strong> <input type="text" name="price" value = "<?=$product['price']?>"><br>
     
-            Category: <select name="catId">
+            <strong>Category:</strong> <select name="catId">
                 <option>Select One</option>
                 <?php getCategories( $product['catId'] ); ?>
             </select> <br />

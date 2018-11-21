@@ -53,10 +53,10 @@ if (isset($_GET['submitProduct'])) {
     <body>
         <h1> Add product</h1>
         <form>
-            Product name: <input type="text" name="productName"><br>
-            Description: <textarea name="description" cols = 50 rows = 4></textarea><br>
-            Price: <input type="text" name="price"><br>
-            Category: <select name="catId">
+            <strong>Product name:</strong> <input type="text" name="productName"><br>
+            <strong>Description:</strong> <textarea name="description" cols = 50 rows = 4></textarea><br>
+            <strong>Price:</strong> <input type="text" name="price"><br>
+            <strong>Category:</strong> <select name="catId">
                 <option value="">Select One</option>
                 <?php getCategories(); ?>
             </select> <br />
